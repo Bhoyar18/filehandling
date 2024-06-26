@@ -6,17 +6,25 @@
  
 
 
-f1=open("file1.txt","w")
-f1.write("File Handling day 1")
-f1.close()
-f1=open("file1.txt","a")
-f1.write("\nFile Handling in python to store data and code ")
-f1.close()
+# f1=open("file1.txt","w")
+# f1.write("File Handling day 1")
+# f1.close()
+# f1=open("file1.txt","a")
+# f1.write("\nFile Handling in python to store data and code ")
+# f1.close()
 
-# f2=open("file2.txt","r")
-# data=f2.read(10) #to read upto particular character
+# f1=open("file2.txt","w")
+# f1.write("File handling is required for python to store code")
+# f1.close()
+# f1=open("file2.txt","a")
+# f1.write("\nFile Handling in python is important for interviews ")
+# f1.close()
+
+f2=open("file2.txt","r")
+print(f2.read())
+# data=f2.readline(10) #to read upto particular character
 # print(data)
-# f2.close()
+f2.close()
 
 # f2=open("file2.txt","r")
 # data=f2.readline() #to read single line 
