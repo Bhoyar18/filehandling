@@ -20,11 +20,11 @@
 # f1.write("\nFile Handling in python is important for interviews ")
 # f1.close()
 
-f2=open("file2.txt","r")
-print(f2.read())
-# data=f2.readline(10) #to read upto particular character
-# print(data)
-f2.close()
+# f2=open("file2.txt","r")
+# print(f2.read())
+# # data=f2.readline(10) #to read upto particular character
+# # print(data)
+# f2.close()
 
 # f2=open("file2.txt","r")
 # data=f2.readline() #to read single line 
@@ -51,6 +51,8 @@ f2.close()
 
 
 # cursor handle position
+# tell()= tell is used to to get the position of a cursor in a file
+# seek()= seek() is used to shift/change the position of the cursor in a file
 # f3=open("file2.txt","r")
 # print(f3.tell())
 # print(f3.read(3))
@@ -74,11 +76,11 @@ f2.close()
 # print(f3.tell())
 
 
-# f3=open("file2.txt","rb")
-# print(f3.tell())
-# f3.seek(-10,2)
-# print(f3.tell())
-# print(f3.read(10))
+f3=open("file2.txt","rb")
+print(f3.tell())
+f3.seek(-10,2)
+print(f3.tell())
+print(f3.read(10))
 
 # print(f3.tell())
 # f3.seek(10,1)
