@@ -1,4 +1,6 @@
-
+# file handling = It is responsible for functions such as
+# storing information or data.
+# 
 # Files: 1. text file
 #        2. binary file - audio,video
 #        3. CSV
