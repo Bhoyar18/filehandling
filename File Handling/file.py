@@ -24,8 +24,8 @@
 
 # f2=open("file2.txt","r")
 # print(f2.read())
-# # data=f2.readline(10) #to read upto particular character
-# # print(data)
+#data=f2.readline(10) #to read upto particular character
+# print(data)
 # f2.close()
 
 # f2=open("file2.txt","r")
