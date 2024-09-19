@@ -78,11 +78,11 @@
 # print(f3.tell())
 
 
-f3=open("file2.txt","rb")
-print(f3.tell())
-f3.seek(-10,2)
-print(f3.tell())
-print(f3.read(10))
+f4=open("file2.txt","rb")
+print(f4.tell())
+f4.seek(-10,2)
+print(f4.tell())
+print(f4.read(10))
 
 # print(f3.tell())
 # f3.seek(10,1)
